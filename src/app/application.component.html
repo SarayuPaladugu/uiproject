@@ -1,0 +1,133 @@
+<br>
+<div class="fifth">
+<h2 style="text-align:center;color:red;">AMREICAN Application University </h2>  
+    <br>
+    <h2><b><div class="row" style="text-align: center;color: red;">Welcome {{getPerson()}} !</div></b>
+    </h2><br>
+    <form #form='ngForm'>
+    <table border="2" style="background-color: seashell;border-radius: 12px;padding-top:20px;margin-left:auto;margin-right:auto;border-collapse:collapse;width:400px;height: 300px;">
+      <tr>
+        <td>
+    <div class="row">
+      <label>First Name:</label>
+      </div>
+    </td>
+    <td>
+      <div class="col-sm-5">
+        <input type="text"  [(ngModel)] ="txtfname" id='txtfname' placeholder="Enter First name" name="txtfname"required>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+  <div class="row">
+    <label>Last Name:</label>
+    </div>
+  </td>
+  <td>
+    <div class="col-sm-5">
+      <input type="text"  [(ngModel)] ="txtlname" id='txtlname' placeholder="Enter last name" name="txtlname" required>
+    </div>
+    </td>
+  </tr>
+    <tr>
+      <td>
+    <div class="row">
+      <label>Father's Name:</label>
+      </div>
+      </td>
+      <td>
+      <div class="col-sm-5">
+        <input type="text"   name="fname" id="fname" placeholder="Enter father name" name="Fathername" required>
+      </div>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    <div class="row">
+      <label>Select Date of Birth:</label>
+      </div>
+      </td>
+      <td>
+      <div class="col-sm-5">
+        <input type="date"  id="dob"  name="date" required>
+      </div>
+      </td>
+      </tr>
+      <tr>
+        <td>
+        <div class="row">
+          <label>Enter Mail id:</label>
+          </div>
+          </td>
+          <td>
+          <div class="col-sm-5">
+            <input type="email" placeholder="abc@gmail.com"required>
+          </div>
+          </td>
+          </tr>
+      <tr>
+        <td>
+    <div class="row">
+      <label>Address:</label>
+      </div>
+      </td>
+      <td>
+      <div class="col-sm-5">
+        <input type="text"  id="adrs" placeholder="Enter Address" name="address" required>
+      </div>
+    </td>
+    <tr>
+      <td>
+    <div class="row">
+      <label>Course:</label>
+      </div>
+      </td>
+      <td>
+      <div class="col-sm-5">
+      <select  id="course" placeholder="Enter the course name" required>
+        <option>Block Chain</option>
+        <option>Astrophysics</option>
+        <option>Virtual Reality</option>
+        <option>Drone and AUV's</option>
+        <option>NanoTechnology</option>
+        <option>Automation</option>
+        <option>EdgeComputing</option>
+        <option>Artificial Intelligence</option>
+        <option>Machine Learning</option>
+        <option>Data Science</option>
+        <option>Big Data</option>
+        <option>IOT</option>
+        <option>Agriculture</option>
+        <option>Advancedmaterials</option>
+        <option>QuantumComputing</option>
+        <option>CyberSecurity</option>
+        <option>FilmoGraphy</option>
+      </select>
+      </div>
+    </td>
+    <tr>
+      <td>
+    <div class="row">
+      <label class="control-label col-sm-2" for="mode">Enter the mode of learning:</label>
+      </div>
+      </td>
+      <td>
+      <div class="radio">
+      <label><input type="radio" name="optradio" checked>Campus</label>
+      <label><input type="radio" name="optradio">Online</label>
+    </div>
+    </td>
+     <tr>
+       <td>
+    <div class="row"style="margin-top:3px;margin-left:1px">
+      <label></label>
+      <div class="col-md-6">
+        <button class="btn btn-info" (click)="addPerson()">Register</button>
+      </div>
+      </div>
+    </td>
+    </table>
+  </form>
+    </div>
+<!--(on-click)="addPerson()"-->

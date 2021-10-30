@@ -1,0 +1,189 @@
+/* You can add global styles to this file, and also import other style files */
+html { background-color: #006994 } 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  .button {
+    border-radius: 12px;
+    background-color: wheat;
+    border: none;
+    color: black;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    box-shadow: 0 12px 16px 0 silver;;
+  }
+  /*
+  .home {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    margin: 20px 12px;
+    float: left;
+    position: relative;
+  }*/
+  .img1 {
+    border-radius: 12px;
+    float: left;
+  }
+  .container {
+    /*padding:  0px 0px 0px 0px;*/
+    background-color: white;
+    border-radius: 12px;
+    height: 500px;
+    border: black;
+  }
+  .first {
+    margin-top: -189.5px;
+    clear:right;
+    content: "";
+    clear: both;
+    display: table;
+    background-color:steelblue;
+    font-size: 13px;
+    /*border-radius: 12px;*/
+    /*margin: 20px 12px;*/
+    float: left;
+  }
+  .second {
+    margin-bottom: 230px;
+    clear:right;
+    content: "";
+    clear: both;
+    display: table;
+    background-color:black;
+    font-size: 13px;
+    color: white;
+    /*border-radius: 12px;*/
+    /*margin: 20px 12px;*/
+    float: right;
+  }
+  .third {
+    margin-top: -210px;
+    clear:right;
+
+    content: "";
+    clear: both;
+    display: table;
+    font-size: 13px;
+    border-radius: 13px;
+    /*margin: 20px 12px;*/
+    float: left;
+  }
+  .fourth {
+    margin-top: -230px;
+    /*clear:right;*/
+    content: "";
+    /*clear: both;*/
+    display: table;
+    font-size: 15px;
+    /*border-radius: 12px;*/
+    /*margin: 20px 12px;*/
+    margin-left: 400px;
+  }
+  .fifth {
+    background-image: url(assets/image09.jpg);
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .seventh {
+    background-image: url(assets/image09.jpg);
+    height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .img2 {
+    float: right;
+    padding: auto;
+  }
+  .img3 {
+    float: inline-end;
+    padding:auto ;
+  }
+  .f{
+    padding-left: 30px;
+  }
+  .center {
+    border-collapse: collapse;
+    text-align:center;
+    padding-left: 320px;
+  }
+  .i{
+    padding-left: 90px;
+  }
+  .lbqt {
+    background-image: url(assets/lbqt.jpg);
+    width: 500px;
+    height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  }
+  .fall {
+    background-image: url(assets/fall.jpg);
+    width: 600px;
+    height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  }
+  .over:hover {
+    box-shadow: 0 0 10px 10px dodgerblue;
+}
+  /*
+  .over {
+    position: relative;
+    width: 50%;
+  }
+  .over:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    padding-top: -10px;
+    color: whitesmoke;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(auto, auto);
+  font-size: 18px;
+  }
+  .overlay {
+    position:center;
+    padding-left: 1000px;
+    height: 200;
+    width: 200;
+    opacity: 0;
+    transition: .5s ease;
+    
+  }*/
+  
+  
